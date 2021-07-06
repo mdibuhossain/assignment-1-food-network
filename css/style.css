@@ -120,5 +120,21 @@ a{
     margin-bottom: -10px;
 }
 .subsCountItem span{
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgba(19, 19, 19, 0.925);
+    padding-top: 8px;
+    padding-bottom: 100px;
+}
+#footerTitle-1{
+    color: #13B6FB;
+}
+#footerTitle-2{
+color: #0285F6;
+}
+#footerSubTitle{
     font-size: 18px;
 }
