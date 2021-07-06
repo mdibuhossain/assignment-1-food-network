@@ -31,6 +31,46 @@ a{
     text-decoration: none;
     color: white;
 }
+.navBar{
+    margin: 0;
+    padding: 0 0 5px;
+    box-shadow: 0 1px 15px rgba(128, 128, 128, 0.247);
+}
+.navBar div{
+    width: 40%;
+    margin: 2px auto;
+    margin: auto;
+    text-align: center;
+}
+.navBar div ul{
+    padding: 0;
+    margin: 0;
+}
+.navBar ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 15px;
+}
+.navBar ul li a{
+    font-size: 25px;
+    padding: 10px 0;
+    font-weight: 700;
+    color: black;
+    display: inline-block;
+}
+#navFirstItem{
+    color:#0285F6;
+    border-bottom: 4px solid #0285F6;
+}
+
+
+
+
+
+
+
+
+
 .bigText{
     line-height: 1.4em;
     margin-bottom: 5%;
@@ -159,11 +199,11 @@ a{
 .subscribeSectionItem a{
     display: inline-block;
     width: 94%;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     padding: 3% 3%;
     border-radius: 60px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.918);
 }
 footer{
     text-align: center;
