@@ -22,7 +22,7 @@ h2{
     color: rgba(0, 0, 0, 0.74);
 }
 p{
-    /* text-align: justify; */
+    text-align: justify;
     color: rgba(0, 0, 0, 0.74);
     font-weight: 500;
     font-size: 20px;
@@ -62,15 +62,6 @@ a{
     color:#0285F6;
     border-bottom: 4px solid #0285F6;
 }
-
-
-
-
-
-
-
-
-
 .bigText{
     line-height: 1.4em;
     margin-bottom: 5%;
@@ -120,6 +111,10 @@ a{
     padding-top: 10%;
     width: 70%;
 }
+.recipieFlex{
+    display: flex;
+    align-items: stretch;
+}
 #recipieBannerTitle{
     text-align: center;
     padding: 0 25%;
@@ -142,8 +137,6 @@ a{
 }
 .recipieInnerSection h2{
     margin-bottom: -15px;
-}
-.subsCount{
 }
 .subsCountContent{
     /* width: 86%; */
@@ -184,6 +177,7 @@ a{
     color: white;
 }
 .subscribeSectionItem p{
+    text-align: center;
     width: 100%;
     color: white;
     font-size: 18px;
